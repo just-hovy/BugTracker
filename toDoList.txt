@@ -1,0 +1,10 @@
+-----PŘÍPRAVA-----
+1. Návrh databáze
+2. Návrh UI
+3. Návrh user logiky (sudo vs user)
+4. Návrh Bugu -> popis, detail, kategorie, upozornění
+
+-----REALIZACE-----
+1. Vytvoření databáze na serveru 
+2. Vytvoření loginu
+3. Přidávání a mazání bugu -> kdo ho zadal, čeho se týka
