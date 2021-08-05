@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4888abd-880e-4c3c-bd96-a283851bcf4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/AppBugTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BugTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/basicbugtracker/bugtracker/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basicbugtracker/bugtracker/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/AppBugTracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/login-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +47,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.26.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3970856" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
