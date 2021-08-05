@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4888abd-880e-4c3c-bd96-a283851bcf4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/Bug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_devFolder/databaseDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/_devFolder/databaseDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/AppBugTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicbugtracker/bugtracker/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basicbugtracker/bugtracker/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basicbugtracker/bugtracker/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/AppBugTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basicbugtracker/bugtracker/login-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +45,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager" selected="Application.AppBugTracker">
-    <configuration name="AppBugTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicbugtracker.bugtracker.AppBugTracker" />
-      <module name="BugTracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicbugtracker.bugtracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicbugtracker.bugtracker.HelloApplication" />
       <module name="BugTracker" />
@@ -73,9 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicbugtracker.bugtracker.Main" />
+      <module name="BugTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicbugtracker.bugtracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppBugTracker" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>

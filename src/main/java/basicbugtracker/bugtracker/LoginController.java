@@ -1,16 +1,24 @@
 package basicbugtracker.bugtracker;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class LoginController {
-    @FXML
-    private Label userName;
-    private Label password;
-    private Label status;
 
     @FXML
-    protected void onHelloButtonClick() {
-        status.setText("Welcome to JavaFX Application!");
+    private TextField username;
+    @FXML
+    private TextField password;
+
+
+
+    @FXML
+    protected void onloginButton() {
+
     }
+
 }
