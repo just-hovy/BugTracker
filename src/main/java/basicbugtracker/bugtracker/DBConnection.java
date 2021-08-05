@@ -1,25 +1,22 @@
 package basicbugtracker.bugtracker;
 
+import java.sql.*;
 import java.util.Properties;
+
 
 public class DBConnection {
     private final String SERVER = "sql11.freemysqlhosting.net";
     private final int PORT = 3306;
-    private final String NAME = "ql11429409";
+    private final String NAME = "sql11429409";
     private final String PASSWORD = "ibwqN2jW72";
 
-    private final String USERNAME;
-    private final String PASSWORDHASH;
+    private Connection conn = null;
 
-
-    public DBConnection(String username, String passwordHash) {
-        this.USERNAME = username;
-        this.PASSWORDHASH = passwordHash;
-
+    public DBConnection() {
+        Connect();
     }
 
     public boolean Connect() {
-        Connection conn = null;
         Properties connectionProps = new Properties();
         connectionProps.put("user", this.NAME);
         connectionProps.put("password", this.PASSWORD);
@@ -28,7 +25,7 @@ public class DBConnection {
             conn = DriverManager.getConnection(
                     "jdbc:" + "mysql" + "://" +
                             this.SERVER +
-                            ":" + this.PORT + "/",
+                            ":" + this.PORT + "/sql11429409",
                     connectionProps);
 
             return true;
@@ -36,6 +33,20 @@ public class DBConnection {
             return false;
         }
 
+    }
 
+    public ResultSet sqlQuery(String sql) {
+        try {
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+
+            st.close();
+            return rs;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }

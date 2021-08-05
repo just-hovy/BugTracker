@@ -10,6 +10,7 @@ module basicbugtracker.bugtracker {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
+    requires java.sql;
 
     opens basicbugtracker.bugtracker to javafx.fxml;
     exports basicbugtracker.bugtracker;
