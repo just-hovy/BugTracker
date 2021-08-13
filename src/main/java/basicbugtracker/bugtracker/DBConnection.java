@@ -5,10 +5,10 @@ import java.util.Properties;
 
 
 public class DBConnection {
-    private final String SERVER = "sql11.freemysqlhosting.net";
+    private final String SERVER = "";
     private final int PORT = 3306;
-    private final String NAME = "sql11429409";
-    private final String PASSWORD = "ibwqN2jW72";
+    private final String NAME = "";
+    private final String PASSWORD = "";
 
     private Connection conn = null;
 
